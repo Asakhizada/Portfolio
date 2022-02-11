@@ -52,7 +52,7 @@ body {
   justify-content: center;
 }
 
-.description {
+.title {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -60,10 +60,6 @@ body {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-}
-
-h4.description {
-  margin-top: 75px;
 }
 
 #home-header p {

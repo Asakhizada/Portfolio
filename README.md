@@ -7,12 +7,6 @@ HTML5
 HTML
 CSS
 
-
-### Prerequisites
-### Setup
-### Install
-### Usage
-### Deployment
 ### Authors
 👤 **Abdullah**
 
