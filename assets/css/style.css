@@ -68,8 +68,8 @@ body {
     url("../images/maskgroup2.svg"),
     url("../images/maskgroup1.svg");
   background-position:
-    0px 300px,
-    300px 0px;
+    0 300px,
+    300px 0;
   background-repeat: no-repeat;
 }
 
@@ -133,6 +133,7 @@ h3 {
 .text-primary {
   color: #805905;
 }
+
 /* Indicator */
 .indicator {
   position: static;
@@ -142,6 +143,7 @@ h3 {
   background-color: #36b37e;
   margin-bottom: 50px;
 }
+
 /* Img Plaholder */
 .img-patholder {
   width: 327px;
@@ -153,6 +155,7 @@ h3 {
   flex-direction: column;
   justify-content: end;
 }
+
 .white-box {
   border: 1px solid #ebf0ee;
   height: 240px;
@@ -198,16 +201,16 @@ h3 {
   border-radius: 5%;
 }
 
-.button-white-bg{
+.button-white-bg {
   margin-bottom: 20px;
 }
 
-.button-white-bg button{
+.button-white-bg button {
   background-color: white;
   color: #36b37f;
 }
 
-.gray-box{
+.gray-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -215,12 +218,11 @@ h3 {
 
 .language {
   background-image:
-  url("../images/Ellipse15.svg");
- 
-background-position:
-  50% 20%;
-background-repeat: no-repeat;
-height: 300px;
+    url("../images/Ellipse15.svg");
+  background-position:
+    50% 20%;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -269,5 +271,4 @@ height: 300px;
     justify-content: stretch;
     background-image: none;
   }
-  
 }
