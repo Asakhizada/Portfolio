@@ -57,12 +57,24 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  line-height: 52px;
+  line-height: 44px;
   text-align: center;
   color: #172b4d;
+  padding-top: 15px;
 }
 
-#home-header p {
+.about-me{
+  background-image:
+  url("../images/maskgroup2.svg"),
+  url("../images/maskgroup1.svg");
+
+background-position:
+  0px 300px,
+  300px 0px;
+background-repeat: no-repeat;
+}
+
+p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -70,6 +82,8 @@ body {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #contact ul {
@@ -120,6 +134,93 @@ h3 {
 .text-primary {
   color: #805905;
 }
+/* Indicator */
+.indicator {
+  position: static;
+  width: 48px;
+  height: 4px;
+  margin: 0 auto;
+  background-color: #36b37e;
+  margin-bottom: 50px;
+}
+/* Img Plaholder */
+
+.img-patholder {
+  width: 327px;
+  height: 474px;
+  background: #ebf0ee;
+  border-radius: 8px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.white-box {
+  border: 1px solid #ebf0ee;
+  height: 240px;
+  width: 100%;
+  background: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.buttons button {
+  background-color: #ebf0ee;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.see-project {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.see-project button {
+  background-color: #36b37f;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.get-my-resume button {
+  background-color: #36b37f;
+  border: none;
+  padding: 20px;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 5%;
+}
+.button-white-bg{
+  margin-bottom: 20px;
+}
+.button-white-bg button{
+  background-color: white;
+  color: #36b37f;
+}
+.gray-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.language {
+  background-image:
+  url("../images/Ellipse15.svg");
+ 
+background-position:
+  50% 20%;
+background-repeat: no-repeat;
+height: 300px;
+}
 
 @media screen and (min-width: 1024px) {
   #nav {
@@ -167,4 +268,5 @@ h3 {
     justify-content: stretch;
     background-image: none;
   }
+  
 }
