@@ -208,7 +208,7 @@ h3 {
 .text-primary {
   color: #805905;
 }
-  
+
 @media screen and (min-width: 1024px) {
   .contact textarea {
     width: 309px;
