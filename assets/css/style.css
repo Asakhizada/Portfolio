@@ -63,15 +63,14 @@ body {
   padding-top: 15px;
 }
 
-.about-me{
+.about-me {
   background-image:
-  url("../images/maskgroup2.svg"),
-  url("../images/maskgroup1.svg");
-
-background-position:
-  0px 300px,
-  300px 0px;
-background-repeat: no-repeat;
+    url("../images/maskgroup2.svg"),
+    url("../images/maskgroup1.svg");
+  background-position:
+    0px 300px,
+    300px 0px;
+  background-repeat: no-repeat;
 }
 
 p {
@@ -144,7 +143,6 @@ h3 {
   margin-bottom: 50px;
 }
 /* Img Plaholder */
-
 .img-patholder {
   width: 327px;
   height: 474px;
@@ -159,7 +157,7 @@ h3 {
   border: 1px solid #ebf0ee;
   height: 240px;
   width: 100%;
-  background: #ffffff;
+  background: #fff;
 }
 
 .buttons {
@@ -199,13 +197,16 @@ h3 {
   margin-top: 15px;
   border-radius: 5%;
 }
+
 .button-white-bg{
   margin-bottom: 20px;
 }
+
 .button-white-bg button{
   background-color: white;
   color: #36b37f;
 }
+
 .gray-box{
   display: flex;
   flex-direction: column;
