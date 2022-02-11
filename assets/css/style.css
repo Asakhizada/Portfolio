@@ -217,10 +217,8 @@ h3 {
 }
 
 .language {
-  background-image:
-    url("../images/Ellipse15.svg");
-  background-position:
-    50% 20%;
+  background-image: url("../images/Ellipse15.svg");
+  background-position: 50% 20%;
   background-repeat: no-repeat;
   height: 300px;
 }
