@@ -187,14 +187,40 @@ h3 {
 .buttons {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  padding: 5px;
   grid-gap: 5px;
   margin-top: 10px;
+  margin-bottom: 5px;
   padding: 0;
   margin-left: 8px;
   margin-right: 8px;
+  
 }
 
-.buttons li {
+.buttons2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+  grid-gap: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 0;
+  margin-top: 0;
+  
+}
+
+.buttons3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding: 5px;
+  grid-gap: 5px;
+  margin-top: 0;
+  margin-left: 8px;
+  margin-right: 8px; 
+}
+
+.buttons > li, .buttons2 > li, .buttons3 > li {
   background-color: #ebf0ee;
   border: none;
   padding: 5px;
@@ -205,7 +231,7 @@ h3 {
   font-size: 12px;
   font-weight: 600;
   font-family: Inter, sans-serif;
-  list-style-type: none;
+  list-style-type: none; 
 }
 
 .see-project {
