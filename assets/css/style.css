@@ -233,6 +233,12 @@ h3 {
   list-style-type: none;
 }
 
+.img-box img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
 .see-project {
   display: flex;
   justify-content: space-evenly;
