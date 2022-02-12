@@ -64,7 +64,7 @@ body {
 }
 
 .title-project{
-  color:#3a4a42;
+  color: #3a4a42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -145,13 +145,14 @@ h3 {
 .text-primary {
   color: #805905;
 }
-#my-recent-work{
+#my-recent-work {
   display: grid;
   justify-content: center;
   align-content: center;
-
 }
+
 /* Indicator */
+
 .indicator {
   position: static;
   width: 48px;
@@ -165,8 +166,8 @@ h3 {
 .img-patholder {
   width: 327px;
   height: 574px;
-  border: 1px solid #e1e1e1;;
-  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  background: #fff;
   border-radius: 8px;
   margin: 10px auto;
   display: flex;
@@ -185,14 +186,12 @@ h3 {
 .buttons {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  padding: 5px;
   grid-gap: 5px;
   margin-top: 10px;
   padding: 0;
   margin-left: 8px;
   margin-right: 8px;
-  
-}
+  }
 
 .buttons li {
   background-color: #ebf0ee;
@@ -206,7 +205,6 @@ h3 {
   font-weight: 600;
   font-family: Inter, sans-serif;
   list-style-type: none;
-  
 }
 
 .see-project {
@@ -244,7 +242,7 @@ h3 {
   height: 350px;
 }
 
-.skills{
+.skills {
   background-image: url("../images/icon-skills.svg");
   background-position: 50% 20%;
   background-repeat: no-repeat;
@@ -252,7 +250,7 @@ h3 {
   height: 350px;
 }
 
-.FrameWorks{
+.FrameWorks {
   background-image: url("../images/icon-frameworks.svg");
   background-position: 50% 20%;
   background-repeat: no-repeat;
