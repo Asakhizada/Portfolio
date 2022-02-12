@@ -63,7 +63,7 @@ body {
   padding-top: 15px;
 }
 
-.title-project{
+.title-project {
   color: #3a4a42;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -145,6 +145,7 @@ h3 {
 .text-primary {
   color: #805905;
 }
+
 #my-recent-work {
   display: grid;
   justify-content: center;
@@ -191,7 +192,7 @@ h3 {
   padding: 0;
   margin-left: 8px;
   margin-right: 8px;
-  }
+}
 
 .buttons li {
   background-color: #ebf0ee;
